@@ -43,5 +43,18 @@ $data + £_Post['dt']; // Post
     
     include_once('../footer.php');
 ?>
+
+
+<h1> methode pot </h1>
+<form action = "" method="POST">
+NOM : <input type="text" name ="nom"> <br> <br>
+ville : <input type="text" name = "prenom"><br><br>
+<input type="submit">
+</form>
+<p>bonjour</p>
+<p>votre nom est<?php echo $_POST['nom'];?> , et votre prénom est <?php echo $_POST['prenom'];?></P>
+
+
+
 </body>
 </html>
